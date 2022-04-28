@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+	<infoTributaria>
+		<ambiente>1</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial/>
+		<nombreComercial/>
+		<ruc/>
+		<claveAcceso>260420220110000010000000011234567813</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000001</secuencial>
+		<dirMatriz/>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision/>
+		<dirEstablecimiento/>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+		<razonSocialComprador/>
+		<identificacionComprador/>
+		<direccionComprador/>
+		<totalSinImpuestos/>
+		<totalDescuento>0.00</totalDescuento>
+		<totalConImpuestos

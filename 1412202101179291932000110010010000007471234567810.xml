@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+	<infoTributaria>
+		<ambiente>1</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</razonSocial>
+		<nombreComercial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</nombreComercial>
+		<ruc>1792919320001</ruc>
+		<claveAcceso>1412202101179291932000110010010000007471234567810</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000746</secuencial>
+		<dirMatriz>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>14/12/2021</fechaEmision>
+		<dirEstablecimiento>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirEstablecimiento>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+		<razonSocialComprador>CONSUMIDOR FINAL</razonSocialComprador>
+		<identificacionComprador>9999999999</identificacionComprador>
+		<direccionComprador>QUITO</direccionComprador>
+		<totalSinImpuestos>1.00</totalSinImpuestos>
+		<totalDescuento>0.00</totalDescuento>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>0</codigoPorcentaje>
+				<baseImponible>1.00</baseImponible>
+				<valor>0</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<propina>0.00</propina>
+		<importeTotal>1.00</importeTotal>
+		<moneda>DOLAR</moneda>
+		<pagos>
+			<pago>
+				<formaPago>01</formaPago>
+				<total>1.00</total>
+				<plazo>30</plazo>
+				<unidadTiempo>dias</unidadTiempo>
+			</pago>
+		</pagos>
+	</infoFactura>
+	<detalles>
+		<detalle>
+			<codigoPrincipal>SERV001</codigoPrincipal>
+			<descripcion>SERV001</descripcion>
+			<cantidad>1</cantidad>
+			<precioUnitario>1.00</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>1.00</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>1.00</baseImponible>
+					<valor>0.00</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+	<infoAdicional>
+		<campoAdicional nombre="email">andresalquinga@hotmail.com</campoAdicional>
+		<campoAdicional nombre="consumo">63</campoAdicional>
+		<campoAdicional nombre="lecturaActual">153</campoAdicional>
+		<campoAdicional nombre="lecturaAnterior">90</campoAdicional>
+	</infoAdicional>
+</factura>

@@ -1,0 +1,125 @@
+Servicio: Autorizacion Comprobante
+Clave Acceso: 0908201801175455087700110010010000004810000048111
+Respuesta: Array
+(
+    [claveAccesoConsultada] => 0908201801175455087700110010010000004810000048111
+    [numeroComprobantes] => 1
+    [autorizaciones] => Array
+        (
+            [autorizacion] => Array
+                (
+                    [estado] => NO AUTORIZADO
+                    [fechaAutorizacion] => 2018-10-04T18:05:32-05:00
+                    [ambiente] => PRODUCCIÓN
+                    [comprobante] => <?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>BCS OKO GARANTIE CIA. LTDA</razonSocial><nombreComercial>BCS OKO GARANTIE CIA. LTDA</nombreComercial><ruc>1754550877001</ruc><claveAcceso>0908201801175455087700110010010000004810000048111</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>001</ptoEmi><secuencial>000000481</secuencial><dirMatriz>ELIA LIUT OE3-135 Y AV. BRASIL. EDIF. ARTEMISA. OF. 6</dirMatriz></infoTributaria><infoFactura><fechaEmision>09/08/2018</fechaEmision><dirEstablecimiento>ELIA LIUT OE3-135 Y AV. BRASIL. EDIF. ARTEMISA. OF. 6</dirEstablecimiento><contribuyenteEspecial>000</contribuyenteEspecial><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>05</tipoIdentificacionComprador><razonSocialComprador>ALEXANDRA ESCOBAR</razonSocialComprador><identificacionComprador>1722963913</identificacionComprador><direccionComprador>LA CONCEPCION</direccionComprador><totalSinImpuestos>1000.0000</totalSinImpuestos><totalDescuento>0.0000</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><baseImponible>1000.0000</baseImponible><valor>120.0000</valor></totalImpuesto></totalConImpuestos><propina>0</propina><importeTotal>1120.0000</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>01</formaPago><total>1120.0000</total><plazo>0</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>8</codigoPrincipal><codigoAuxiliar>0</codigoAuxiliar><descripcion>PAGINA WEB</descripcion><cantidad>1.00</cantidad><precioUnitario>1000.00000</precioUnitario><descuento>0.0000</descuento><precioTotalSinImpuesto>1000.0000</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12</tarifa><baseImponible>1000.0000</baseImponible><valor>120.0000</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Email">info@alfadigital.com.ec</campoAdicional><campoAdicional nombre="Telefono">11111111111</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature140975">
+<ds:SignedInfo Id="Signature-SignedInfo151646">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID966128" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature140975-SignedProperties534702">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>RhjkNewollFF7bvbpZ/QUfVUDw4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate182570">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>Ycr9BcUPDgeckhSkzqDaoQPD+Xk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-348892" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>hTuO/A9CUz65Vg8FaQE+3zNekwY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue925102">
+ws8REitAUQn9dVH+GRavcY6cftBr8FNg0pyA7wXk7c9vNOeMxaCKwpWQ7db39Yzn61hZgOC0uELQ
+ySZ32nqZZ0+dAxjxTeHenDYchPzljrqlaEjdR7gGEmyt9HuI/72kAlSgqgsakNUaZ0dpo58Yl6q/
+6LXOJOiYj8k4n7YzgSavXELYlYtzAeSV1HS+YUh8U5l/YMdtdRV6W9FgSs8KdgNc5AWraihxU8CJ
+aOm5/ZO8XZVeXK9ZZswFAyn1+GYZkyfRPaIfTflgHMldvDwDbl2t1XW/FFgCaVf2J6g03f2AdXm9
+qb5pPeA9EhFOnp+5kK9FdLS4KtQD9DoWL7r+nw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate182570">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJrjCCCJagAwIBAgIEVNGK6zANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoTElNFQ1VSSVRZIERBVEEgUy5BLjEwMC4GA1UECxMnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9O
+IERFIElORk9STUFDSU9OMTUwMwYDVQQDEyxBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUIg
+U0VDVVJJVFkgREFUQTAeFw0xODA2MjUxOTEyNTdaFw0xOTA2MjUxOTQyNTdaMIGbMQswCQYDVQQG
+EwJFQzEbMBkGA1UEChMSU0VDVVJJVFkgREFUQSBTLkEuMTAwLgYDVQQLEydFTlRJREFEIERFIENF
+UlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xPTATBgNVBAUTDDIyMDYxODE2NTU0NzAmBgNVBAMT
+H1NBTlRJQUdPIFhBVklFUiBNRVJJTk8gVkFMVkVSREUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDbH5kUlDOGi3A0vVPRUau0ascP7YYGcuK7QJvspxJWp3kDT4Befwz/yjFRc7CjKEwP
+0w0Ryy16JA919iYLc0tJg+VyIe2rp2m1wR6EIaTkAjYPdl0F3h9lPoKu2q82viikQibZ9s8LnSJx
+JDKPNdtbO6J2gn6A6HGLtqy9zNLdGabSI1Xu5F808YOPgh9Fip1DoRkIAMi7iH36TbRjDt4qWtwX
+NVLPdKaAL9c0Vn5DHWSGKvRPQis1OANKAeKd02tmzg2gkL9LRCb2kFF0U2NWsQAsUB7IU/tdTY7g
+Of0WmbLw9fSxpv/3zZMb3GKy5XaUIy5tW4bNnFvmqiQIQPsbAgMBAAGjggX+MIIF+jALBgNVHQ8E
+BAMCBeAwWQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5
+ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMIHMBgNVHSAEgcQwgcEwQAYK
+KwYBBAGCpnICCTAyMDAGCCsGAQUFBwICMCQaIkNlcnRpZmljYWRvIGRlIFJlcHJlc2VudGFudGUg
+TGVnYWwwfQYKKwYBBAGCpnICAzBvMG0GCCsGAQUFBwIBFmFodHRwczovL3d3dy5zZWN1cml0eWRh
+dGEubmV0LmVjL2xleWVzX25vcm1hdGl2YXMvUG9saXRpY2FzIGRlIENlcnRpZmljYWRvIFJlcHJl
+c2VudGFudGUgTGVnYWwucGRmMBsGCisGAQQBgqZyAwoEDRMLRklUIENPTlNFSUwwHQYKKwYBBAGC
+pnIDCwQPEw0xNzkyNDU4NTg3MDAxMBoGCisGAQQBgqZyAwEEDBMKMTcwNDk1OTE0NTAfBgorBgEE
+AYKmcgMCBBETD1NBTlRJQUdPIFhBVklFUjAWBgorBgEEAYKmcgMDBAgTBk1FUklOTzAYBgorBgEE
+AYKmcgMEBAoTCFZBTFZFUkRFMCEGCisGAQQBgqZyAwUEExMRQVBPREVSQURPIEdFTkVSQUwwOgYK
+KwYBBAGCpnIDBwQsEypBViBSRVBVQkxJQ0EgREVMIFNBTFZBRE9SIE4zNS0xNDYgWSBTVUVDSUEw
+GwYKKwYBBAGCpnIDCAQNEws1OTMyMjkyNDI0MDAVBgorBgEEAYKmcgMJBAcTBVFVSVRPMBcGCisG
+AQQBgqZyAwwECRMHRUNVQURPUjAfBgorBgEEAYKmcgMgBBETDzAwMjAwMTAwMDAyNDA0NDATBgor
+BgEEAYKmcgMhBAUTA1BGWDAiBgNVHREEGzAZgRdzYW5tZXJpbm82NUBob3RtYWlsLmNvbTCCAnsG
+A1UdHwSCAnIwggJuMIICaqCCAmagggJihj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwhoHVbGRhcDovL2RpcmVjdC5zZWN1cml0eWRh
+dGEubmV0LmVjL2NuPUNSTDIxOSxjbj1BVVRPUklEQUQlMjBERSUyMENFUlRJRklDQUNJT04lMjBT
+VUIlMjBTRUNVUklUWSUyMERBVEEsb3U9RU5USURBRCUyMERFJTIwQ0VSVElGSUNBQ0lPTiUyMERF
+JTIwSU5GT1JNQUNJT04sbz1TRUNVUklUWSUyMERBVEElMjBTLkEuLGM9RUM/Y2VydGlmaWNhdGVS
+ZXZvY2F0aW9uTGlzdD9iYXNlhoGeaHR0cHM6Ly9kaXJlY3Quc2VjdXJpdHlkYXRhLm5ldC5lYy9+
+Y3JsL2F1dG9yaWRhZF9kZV9jZXJ0aWZpY2FjaW9uX3N1Yl9zZWN1cml0eV9kYXRhX2VudGlkYWRf
+ZGVfY2VydGlmaWNhY2lvbl9kZV9pbmZvcm1hY2lvbl9jdXJpdHlfZGF0YV9zLmEuX2NfZWNfY3Js
+ZmlsZS5jcmykgacwgaQxCzAJBgNVBAYTAkVDMRswGQYDVQQKExJTRUNVUklUWSBEQVRBIFMuQS4x
+MDAuBgNVBAsTJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjE1MDMGA1UE
+AxMsQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCIFNFQ1VSSVRZIERBVEExDzANBgNVBAMT
+BkNSTDIxOTArBgNVHRAEJDAigA8yMDE4MDYyNTE5MTI1N1qBDzIwMTkwNjI1MTk0MjU3WjAfBgNV
+HSMEGDAWgBT3L0zgdedio3iWWwa2LnE7zGw/kDAdBgNVHQ4EFgQUU4oY+MXQtXOOo/BwBkI+FsC4
+ZQUwCQYDVR0TBAIwADAZBgkqhkiG9n0HQQAEDDAKGwRWOC4xAwIDqDANBgkqhkiG9w0BAQsFAAOC
+AQEAKecxoNKkXBi3bhy+nsSwhq405V9YN4yri8CxRgB81fKjmYLqYUBGrGZ46QTthUPWv6tR2gxj
+h4YOWvovA0aw6j8vrcYdzLqeN4TbQ22TudsOF1gPUqUbmS8Vcp/MiOMFrXyORDF3EFpuO4EASeyE
++c6EMHNm1qd6Veiett26O5WE2iAqoBcGsttTCsG44KMWzBVYKodGxiMfSHgW+PlAHvwP+oZU78Mi
+ANUj1ZNWrdGF6yWEgVzq9d0+0UjtKC5eUWJBJZJWyh1IkdHtquWkyZhwn6usH4vrWp1IAzOGAf4l
+hQ7B6cqgdyvj/cUdH9ZqooPe6l4I+DO+K4Hmmbf28A==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2x+ZFJQzhotwNL1T0VGrtGrHD+2GBnLiu0Cb7KcSVqd5A0+AXn8M/8oxUXOwoyhMD9MNEcsteiQP
+dfYmC3NLSYPlciHtq6dptcEehCGk5AI2D3ZdBd4fZT6CrtqvNr4opEIm2fbPC50icSQyjzXbWzui
+doJ+gOhxi7asvczS3Rmm0iNV7uRfNPGDj4IfRYqdQ6EZCADIu4h9+k20Yw7eKlrcFzVSz3SmgC/X
+NFZ+Qx1khir0T0IrNTgDSgHindNrZs4NoJC/S0Qm9pBRdFNjVrEALFAeyFP7XU2O4Dn9Fpmy8PX0
+sab/982TG9xisuV2lCMubVuGzZxb5qokCED7Gw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature140975-Object90239"><etsi:QualifyingProperties Target="#Signature140975"><etsi:SignedProperties Id="Signature140975-SignedProperties534702"><etsi:SignedSignatureProperties><etsi:SigningTime>2018-10-04T18:05:23-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>bBeLNO/csHVwe9BbVGJLbS/Bw4g=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUB SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1423018731</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-348892"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>
+
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 39
+                                    [mensaje] => FIRMA INVALIDA
+                                    [informacionAdicional] => La firma es invalida [La firma es invalida RucComprobante:1754550877001 RucCertificado:1792458587001]
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+

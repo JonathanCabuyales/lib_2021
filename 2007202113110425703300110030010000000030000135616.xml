@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>COMPANIA DE TRANSPORTE PESADO INTERPROVINCIAL JAIME ROLDOS AGUILERA S.A</razonSocial>
+        <nombreComercial>COMPANIA DE TRANSPORTE PESADO INTERPROVINCIAL JAIME ROLDOS AGUILERA S.A</nombreComercial>
+        <ruc>1104257033001</ruc>
+        <claveAcceso>2007202113110425703300110030010000000030000135616</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>003</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000003</secuencial>
+        <dirMatriz>Av. Gonzales Suarez</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>20/07/2021</fechaEmision>
+        <dirEstablecimiento>AV 9 DE OCTUBRE</dirEstablecimiento>
+        <contribuyenteEspecial>1111</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>       
+        <tipoIdentificacionComprador>08</tipoIdentificacionComprador>
+        
+        <razonSocialComprador>consumidor final</razonSocialComprador>
+        <identificacionComprador>2222222222222</identificacionComprador>
+        <direccionComprador>-</direccionComprador><totalSinImpuestos>0.25</totalSinImpuestos><totalDescuento>0.00</totalDescuento>        
+        <totalConImpuestos>
+<totalImpuesto>
+                        <codigo>2</codigo>
+                        <codigoPorcentaje>2</codigoPorcentaje>
+                        <baseImponible>0</baseImponible>
+                        <tarifa>12</tarifa>
+                        <valor>0</valor>
+                    </totalImpuesto>
+                    <totalImpuesto>
+                        <codigo>2</codigo>
+                        <codigoPorcentaje>0</codigoPorcentaje>
+                        <baseImponible>0.25</baseImponible>
+                        <tarifa>0</tarifa>                
+                        <valor>0.00</valor>
+                    </totalImpuesto>
+         </totalConImpuestos>        
+        <propina>0.00</propina>        
+        <importeTotal>0.25</importeTotal>
+        <moneda>DOLAR</moneda><pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>0.25</total>
+                <plazo>1</plazo>
+                <unidadTiempo>Dias</unidadTiempo>
+            </pago>            
+        </pagos><valorRetIva>0.00</valorRetIva>
+        <valorRetRenta>0.00</valorRetRenta>
+    </infoFactura>
+    <detalles><detalle>
+            <codigoPrincipal>4099523433295</codigoPrincipal>
+            <codigoAuxiliar>4099523433295</codigoAuxiliar>
+            <descripcion>FRT-FISA.KM 5.5</descripcion>
+            <unidadMedida>No definido</unidadMedida>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>0.25</precioUnitario>            
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>0.25000</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="denominacion_tipo_producto" valor="Tipo Producto"></detAdicional>
+                <detAdicional nombre="denominacion_categoria" valor="Categoria"></detAdicional>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+<codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+             <tarifa>0</tarifa><baseImponible>0.25000</baseImponible>                
+                <valor>0.00</valor></impuesto>
+            </impuestos>
+        </detalle></detalles>
+    
+    <infoAdicional>
+        <campoAdicional nombre="Direccion">-</campoAdicional>
+        <campoAdicional nombre="Telefono">-</campoAdicional>		
+        <campoAdicional nombre="Email">-</campoAdicional>
+        <campoAdicional nombre="Contribuyente">aasss</campoAdicional>
+        <campoAdicional nombre="Agente_Retencion">bbbsss</campoAdicional>
+    </infoAdicional>
+</factura>

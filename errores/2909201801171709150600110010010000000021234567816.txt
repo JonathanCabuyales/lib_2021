@@ -1,0 +1,31 @@
+Servicio: Validar Comprobante
+Clave Acceso: 2909201801171709150600110010010000000021234567816
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 2909201801171709150600110010010000000021234567816
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 90
+                                    [mensaje] => LIMITE DE INTENTOS NO AUTORIZADOS POR DIA
+                                    [informacionAdicional] => La clave de acceso 2909201801171709150600110010010000000021234567816 ha superado el limite diario permitido para un comprobante no autorizado (3 intentos), para la fecha: Wed Oct 03 21:21:18 GMT-05:00 2018. Corrija los errores e intente nuevamente al dia siguiente.
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+

@@ -1,0 +1,31 @@
+Servicio: Validar Comprobante
+Clave Acceso: 0909201806050231633400120011100000001800000000118
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 0909201806050231633400120011100000001800000000118
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 90
+                                    [mensaje] => LIMITE DE INTENTOS NO AUTORIZADOS POR DIA
+                                    [informacionAdicional] => La clave de acceso 0909201806050231633400120011100000001800000000118 ha superado el limite diario permitido para un comprobante no autorizado (2 intentos), para la fecha: Thu Oct 04 02:16:48 GMT-05:00 2018. Corrija los errores e intente nuevamente al dia siguiente.
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+

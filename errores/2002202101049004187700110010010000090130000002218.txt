@@ -1,0 +1,31 @@
+Servicio: Validar Comprobante
+Clave Acceso: 2002202101049004187700110010010000090130000002218
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 2002202101049004187700110010010000090130000002218
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 65
+                                    [mensaje] => FECHA EMISIÓN EXTEMPORANEA
+                                    [informacionAdicional] => La fecha de emisión está fuera del rango de tolerancia [129600 minutos], o es mayor a la fecha del servidor
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+

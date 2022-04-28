@@ -1,0 +1,125 @@
+Servicio: Autorizacion Comprobante
+Clave Acceso: 2007202101110425703300110010010000039780000135516
+Respuesta: Array
+(
+    [claveAccesoConsultada] => 2007202101110425703300110010010000039780000135516
+    [numeroComprobantes] => 1
+    [autorizaciones] => Array
+        (
+            [autorizacion] => Array
+                (
+                    [estado] => NO AUTORIZADO
+                    [fechaAutorizacion] => 2021-07-20T19:42:37-05:00
+                    [ambiente] => PRUEBAS
+                    [comprobante] => <?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.0.0"><infoTributaria><ambiente>1</ambiente><tipoEmision>1</tipoEmision><razonSocial>COMPANIA DE TRANSPORTE PESADO INTERPROVINCIAL JAIME ROLDOS AGUILERA S.A</razonSocial><nombreComercial>COMPANIA DE TRANSPORTE PESADO INTERPROVINCIAL JAIME ROLDOS AGUILERA S.A</nombreComercial><ruc>1104257033001</ruc><claveAcceso>2007202101110425703300110010010000039780000135516</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>001</ptoEmi><secuencial>000003978</secuencial><dirMatriz>Av. Gonzales Suarez</dirMatriz></infoTributaria><infoFactura><fechaEmision>20/07/2021</fechaEmision><dirEstablecimiento>AV 9 DE OCTUBRE</dirEstablecimiento><contribuyenteEspecial>1111</contribuyenteEspecial><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>08</tipoIdentificacionComprador><razonSocialComprador>Cristhian Bonifaz</razonSocialComprador><identificacionComprador>0603890179001</identificacionComprador><direccionComprador>colombia entres espana y garcia moreno</direccionComprador><totalSinImpuestos>0.25</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><baseImponible>0</baseImponible><tarifa>12</tarifa><valor>0</valor></totalImpuesto><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><baseImponible>0.25</baseImponible><tarifa>0</tarifa><valor>0.00</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>0.25</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>01</formaPago><total>0.25</total><plazo>1</plazo><unidadTiempo>Dias</unidadTiempo></pago></pagos><valorRetIva>0.00</valorRetIva><valorRetRenta>0.00</valorRetRenta></infoFactura><detalles><detalle><codigoPrincipal>4099523433295</codigoPrincipal><codigoAuxiliar>4099523433295</codigoAuxiliar><descripcion>FRT-FISA.KM 5.5</descripcion><unidadMedida>No definido</unidadMedida><cantidad>1.00</cantidad><precioUnitario>0.25</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>0.25000</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="denominacion_tipo_producto" valor="Tipo Producto"></detAdicional><detAdicional nombre="denominacion_categoria" valor="Categoria"></detAdicional></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0</tarifa><baseImponible>0.25000</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Direccion">colombia entres espana y garcia moreno</campoAdicional><campoAdicional nombre="Telefono">0987635146</campoAdicional><campoAdicional nombre="Email">facturacionelectronica1993@gmail.com</campoAdicional><campoAdicional nombre="Contribuyente">aasss</campoAdicional><campoAdicional nombre="Agente_Retencion">bbbsss</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature503039">
+<ds:SignedInfo Id="Signature-SignedInfo765557">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID838662" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature503039-SignedProperties532332">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>x8EOe5Ni4H5DbYlCHWwgUUpN9HA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate256702">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>Qr4fa6NRLdaKYAVqOI1hYSdpR0o=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-335819" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>TaC4PDQ+EA5UhFfJW+iD0v+K5kg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue12617">
+CZLOBM2PSFOT0hXQiYy/xtbS7/jtHf5ZrwYN0cPwzARtwTagBCrSr3inY+bVzEOhPFD6Pkwnj0Lz
+jNSDXMpcoNC5cX/WWLr7NOZzyXq0xfEw+OkU2jG4aKnZtKFCZOqhwfXLXIjE+oh7CBx+UHfIIAYk
+XC+vSO2HFbWKKisYVNqSFkmCwxWeG1mpcT+qqFXSTdkuTlDaUHcENGrWqY3xO/Jb0MWK3BeoT6xX
+LMtlfruwnG0Ena/PZeAfgIVt4xNNSQCl9wwOkSo6vmR4GhBeTXd95yyUPKXQrHNkmfknLWgD4cII
+qBWADqFAg+OJzXb1C/tbwOnKUNi7LTP8zyZd9Q==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate256702">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJpjCCB46gAwIBAgIEW2m9jzANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTIxMDcwNzE0NDgyM1oXDTIzMDcwNzE1MTgy
+M1owgbAxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE0MBEGA1UEBRMKMDAwMDY1MDIyNDAfBgNVBAMTGE5FTExZIE1BUklBIENV
+RU5DQSBNQUNBUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKOyKK4zMBseG+FdI6lJ
+hSYKbGESDnx/5ZQHCvbeWsjdeBKIP4Mau3l6PX5jan9AAz187k0/LkS1m/jkHCZtRzd8MF6zfB+w
+UVyBtfaCtGjI7a89ERVTiTQNgJrJAptCM6k0R17jQaaFXyt5uIp/qLq0OyA4RLjdRY7bXWZkz0FU
+EBXFM2z4yxcHRy7+JC8ClLJ8KBH+UNU/viOGFBYakJMluooiqXtm03hDUv+RvJNlzNhtHS0gHbbB
+HqxPG8/W3yECjLmOR+KHaSy7SxGfmzoMSl3dqsrm9DAqOg7nCkjklkEM5l2pQsbKjuSQrUgEfDTD
+DITziL1qOd9/VtPdch0CAwEAAaOCBNMwggTPMAsGA1UdDwQEAwIHgDBmBgNVHSAEXzBdMFsGCysG
+AQQBgqg7AgEBMEwwSgYIKwYBBQUHAgEWPmh0dHA6Ly93d3cuZWNpLmJjZS5lYy9wb2xpdGljYS1j
+ZXJ0aWZpY2Fkby9wZXJzb25hLW5hdHVyYWwucGRmMIGRBggrBgEFBQcBAQSBhDCBgTA+BggrBgEF
+BQcwAYYyaHR0cDovL29jc3AuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Aw
+PwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMS5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0
+dXMvb2NzcDAaBgorBgEEAYKoOwMBBAwTCjExMDQyNTcwMzMwGwYKKwYBBAGCqDsDAgQNEwtORUxM
+WSBNQVJJQTAWBgorBgEEAYKoOwMDBAgTBkNVRU5DQTAVBgorBgEEAYKoOwMEBAcTBU1BQ0FTMDUG
+CisGAQQBgqg7AwcEJxMlTlVFVk9TIEhPUklaT05URVMgREVMIFNVUiAgUzQwMTUxIFM0MTAZBgor
+BgEEAYKoOwMIBAsTCTAyMzA3NDM2NTAVBgorBgEEAYKoOwMJBAcTBVF1aXRvMBcGCisGAQQBgqg7
+AwwECRMHRUNVQURPUjAdBgorBgEEAYKoOwMLBA8TDTExMDQyNTcwMzMwMDEwIAYKKwYBBAGCqDsD
+MwQSExBTT0ZUV0FSRS1BUkNISVZPMCEGA1UdEQQaMBiBFm5lbGx5c3V0aWxAaG90bWFpbC5jb20w
+ggHhBgNVHR8EggHYMIIB1DCCAdCgggHMoIIByIaB1mxkYXA6Ly9iY2VxbGRhcHN1YnAxLmJjZS5l
+Yy9jbj1DUkwxMzA1LGNuPUFDJTIwQkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixsPVFV
+SVRPLG91PUVOVElEQUQlMjBERSUyMENFUlRJRklDQUNJT04lMjBERSUyMElORk9STUFDSU9OLUVD
+SUJDRSxvPUJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsYz1FQz9jZXJ0aWZpY2F0ZVJl
+dm9jYXRpb25MaXN0P2Jhc2WGNGh0dHA6Ly93d3cuZWNpLmJjZS5lYy9DUkwvZWNpX2JjZV9lY19j
+cmxmaWxlY29tYi5jcmykgbYwgbMxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFM
+IERFTCBFQ1VBRE9SMTcwNQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JN
+QUNJT04tRUNJQkNFMQ4wDAYDVQQHEwVRVUlUTzElMCMGA1UEAxMcQUMgQkFOQ08gQ0VOVFJBTCBE
+RUwgRUNVQURPUjEQMA4GA1UEAxMHQ1JMMTMwNTArBgNVHRAEJDAigA8yMDIxMDcwNzE0NDgyM1qB
+DzIwMjMwNzA3MTUxODIzWjAfBgNVHSMEGDAWgBRIot8jHx34LFF6jAPNSTKlCcGUqzAdBgNVHQ4E
+FgQU7vzAId2ZXM9QLTAkVa9xafdf6xcwCQYDVR0TBAIwADAZBgkqhkiG9n0HQQAEDDAKGwRWOC4x
+AwIEsDANBgkqhkiG9w0BAQsFAAOCAgEAcqnTGQf1hLved7aq7gennEKD+7VOvbx9/HhcU5csjWnV
+zw1epGmh/y8NALcFzHHH+UOdhZrXGJDzyXh3pOnSuHKvWWthtKHcE1gJWbSi70/h+fbNrykIYk2m
+E9LMDRS5mNF7MsQHgO59X/GI78ZI61O2ChoNPR2QZknAjQqPsDv+c+0/lYzM5Os2QxD7YGyGtLIY
+8W+qyboQBGjWZaTss5zYAVhz6COIIf4FQ2FaXshB4VlRG7D395mGqLSxjDjEUcarO9hXJzzz8XBq
+4eOs6hnweH5iPxQMBjSLP+WEN8OES7RS4is8tXAeIdc7htiegtaVxf8Ezo6iRQjRK3dPjT2wObUi
+3OlJhD/7Sa78jyOBUZLEiLohGeF+F/42kdccV6lCq5yIsLOFfkRqjvDTRnKHk4QVMR3ArBvwaOVg
+HxUKZ7AW7qEk5KTnkwJd60Ooaidxln9aePQSzpRuN7xTe7AjOHnQMzCMaCJYG8DPMB2DsPFP5PHZ
+zA0qnuSHRO3WcdTnpg97ei3W5biDtYTt4vuJCGiwaET2Vx92zCQdPM8IaFXihI7HbVmxfmoeR8/C
+Mx/B2zt4aqAOu/umlJN+uX6qSSMwKjow3QMTBfyu+YKr5jXsFVyFm0xNl1dnffiUDMJEqhU8ENHZ
+Vw4VQD2QThxpps+wYJT0lHCvX7zhYFc=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+o7IorjMwGx4b4V0jqUmFJgpsYRIOfH/llAcK9t5ayN14Eog/gxq7eXo9fmNqf0ADPXzuTT8uRLWb
++OQcJm1HN3wwXrN8H7BRXIG19oK0aMjtrz0RFVOJNA2AmskCm0IzqTRHXuNBpoVfK3m4in+ourQ7
+IDhEuN1FjttdZmTPQVQQFcUzbPjLFwdHLv4kLwKUsnwoEf5Q1T++I4YUFhqQkyW6iiKpe2bTeENS
+/5G8k2XM2G0dLSAdtsEerE8bz9bfIQKMuY5H4odpLLtLEZ+bOgxKXd2qyub0MCo6DucKSOSWQQzm
+XalCxsqO5JCtSAR8NMMMhPOIvWo5339W091yHQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature503039-Object190264"><etsi:QualifyingProperties Target="#Signature503039"><etsi:SignedProperties Id="Signature503039-SignedProperties532332"><etsi:SignedSignatureProperties><etsi:SigningTime>2021-07-20T19:42:35-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>daaDqCL0xk54HYxdiV27BhIFE78=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1533656463</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-335819"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>
+
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 56
+                                    [mensaje] => ERROR ESTABLECIMIENTO CERRADO
+                                    [informacionAdicional] => El establecimiento 001 está cerrado
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+

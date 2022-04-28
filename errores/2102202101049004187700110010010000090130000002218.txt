@@ -1,0 +1,31 @@
+Servicio: Validar Comprobante
+Clave Acceso: 2102202101049004187700110010010000090130000002218
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 2102202101049004187700110010010000090130000002218
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 90
+                                    [mensaje] => LIMITE DE INTENTOS NO AUTORIZADOS POR DIA
+                                    [informacionAdicional] => La clave de acceso 2102202101049004187700110010010000090130000002218 ha superado el limite diario permitido para un comprobante no autorizado (3 intentos), para la fecha: Wed Feb 24 14:58:48 GMT-05:00 2021. Corrija los errores e intente nuevamente al dia siguiente.
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+

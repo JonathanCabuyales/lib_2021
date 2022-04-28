@@ -1,0 +1,31 @@
+Servicio: Validar Comprobante
+Clave Acceso: 2109201801179132638500120010290000000500022680812
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 2109201801179132638500120010290000000500022680812
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => El ambiente de la solicitud PRODUCCIÓN no coincide con el de ejecución PRUEBAS
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+

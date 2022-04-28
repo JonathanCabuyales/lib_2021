@@ -1,0 +1,6 @@
+Servicio: Validar Comprobante
+Clave Acceso: 2411202001131224783400110010010000001051234567819
+Respuesta: HTTP Error: Unsupported HTTP response status 503 Service Unavailable (soapclient->response has contents of the response)
+
+__________________________________________________________________
+

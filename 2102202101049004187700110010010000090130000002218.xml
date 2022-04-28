@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>DIANA KARINA GUERRA LOPEZ</razonSocial>
+        <nombreComercial>GYG</nombreComercial>
+        <ruc>0490041877001</ruc>
+        <claveAcceso>2002202101049004187700110010010000090130000002218</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000009013</secuencial>
+        <dirMatriz>PASAJE A LOTE 2 S/N Y 4 DE MARZO</dirMatriz>
+		<regimenMicroempresas>CONTRIBUYENTE RÉGIMEN MICROEMPRESAS</regimenMicroempresas>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>20/02/2021</fechaEmision>
+        <dirEstablecimiento>PASAJE A LOTE 2 S/N Y 4 DE MARZO</dirEstablecimiento>
+        <obligadoContabilidad>SI</obligadoContabilidad>       
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        
+        <razonSocialComprador>Alexandra Albornoz Ortiz</razonSocialComprador>
+        <identificacionComprador>0490041877001</identificacionComprador>
+        <direccionComprador>Conjunto Brasil 2 Casa 32</direccionComprador><totalSinImpuestos>159.6</totalSinImpuestos><totalDescuento>0</totalDescuento><totalConImpuestos>
+        <totalImpuesto>
+                        <codigo>2</codigo>
+                        <codigoPorcentaje>0</codigoPorcentaje>
+                        <baseImponible>42.6</baseImponible>
+                        <tarifa>0</tarifa>                
+                        <valor>0.00</valor>
+                    </totalImpuesto><totalImpuesto>
+                            <codigo>2</codigo>
+                            <codigoPorcentaje>2</codigoPorcentaje>
+                            <baseImponible>117</baseImponible>
+                            <tarifa>0</tarifa>                
+                            <valor>14.04</valor>
+                        </totalImpuesto>
+         </totalConImpuestos>        
+        <propina>0.00</propina>        
+        <importeTotal>173.64</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>173.64</total>
+                <plazo>1</plazo>
+                <unidadTiempo>Dias</unidadTiempo>
+            </pago>            
+        </pagos>
+        <valorRetIva>0.00</valorRetIva>
+        <valorRetRenta>0.00</valorRetRenta>
+    </infoFactura>
+    <detalles><detalle>
+            <codigoPrincipal>30</codigoPrincipal>
+            <codigoAuxiliar>30</codigoAuxiliar>
+            <descripcion>Pulpa de LIMON</descripcion>
+            <cantidad>20</cantidad>
+            <precioUnitario>0.3400</precioUnitario>            
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>6.8000</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="denominacion_tipo_producto" valor="Tipo Producto"></detAdicional>
+                <detAdicional nombre="denominacion_categoria" valor="Categoria"></detAdicional>
+            </detallesAdicionales><impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>6.8000</baseImponible>
+                    <valor>0</valor>
+                </impuesto>
+            </impuestos>
+            </detalle>
+            <detalle>
+            <codigoPrincipal>56</codigoPrincipal>
+            <codigoAuxiliar>56</codigoAuxiliar>
+            <descripcion>Pulpa de FRUTILLA</descripcion>
+            <cantidad>20</cantidad>
+            <precioUnitario>1.7900</precioUnitario>            
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>35.8000</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="denominacion_tipo_producto" valor="Tipo Producto"></detAdicional>
+                <detAdicional nombre="denominacion_categoria" valor="Categoria"></detAdicional>
+            </detallesAdicionales><impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>35.8000</baseImponible>
+                    <valor>0</valor>
+                </impuesto>
+            </impuestos>
+            </detalle>
+            <detalle>
+            <codigoPrincipal>58</codigoPrincipal>
+            <codigoAuxiliar>58</codigoAuxiliar>
+            <descripcion>Pulpa de GUANABANA</descripcion>
+            <cantidad>25</cantidad>
+            <precioUnitario>2.4900</precioUnitario>            
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>62.2500</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="denominacion_tipo_producto" valor="Tipo Producto"></detAdicional>
+                <detAdicional nombre="denominacion_categoria" valor="Categoria"></detAdicional>
+            </detallesAdicionales><impuestos>
+                    <impuesto>
+                        <codigo>2</codigo>
+                        <codigoPorcentaje>2</codigoPorcentaje>
+                        <tarifa>12</tarifa>
+                        <baseImponible>62.2500</baseImponible>
+                        <valor>7.47</valor>
+                    </impuesto>
+                </impuestos>
+                </detalle>
+                <detalle>
+            <codigoPrincipal>59</codigoPrincipal>
+            <codigoAuxiliar>59</codigoAuxiliar>
+            <descripcion>Pulpa de MORA</descripcion>
+            <cantidad>25</cantidad>
+            <precioUnitario>2.1900</precioUnitario>            
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>54.7500</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="denominacion_tipo_producto" valor="Tipo Producto"></detAdicional>
+                <detAdicional nombre="denominacion_categoria" valor="Categoria"></detAdicional>
+            </detallesAdicionales><impuestos>
+                    <impuesto>
+                        <codigo>2</codigo>
+                        <codigoPorcentaje>2</codigoPorcentaje>
+                        <tarifa>12</tarifa>
+                        <baseImponible>54.7500</baseImponible>
+                        <valor>6.57</valor>
+                    </impuesto>
+                </impuestos>
+                </detalle>
+                </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Direccion">Conjunto Brasil 2 Casa 32</campoAdicional>
+        <campoAdicional nombre="Telefono">2419867</campoAdicional>		
+        <campoAdicional nombre="Email">facturacionelectronica1993@gmail.com</campoAdicional>
+    </infoAdicional>
+</factura>

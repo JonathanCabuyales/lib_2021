@@ -1,0 +1,31 @@
+Servicio: Validar Comprobante
+Clave Acceso: 0609201806050231633400120011100000001800000000118
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 0609201806050231633400120011100000001800000000118
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 58
+                                    [mensaje] => ERROR EN LA ESTRUCTURA DE LA CLAVE DE ACCESO
+                                    [informacionAdicional] => La fecha de emisión Wed Sep 05 00:00:00 GMT-05:00 2018 no consta como parte de la clave de acceso 0609201806050231633400120011100000001800000000118
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+

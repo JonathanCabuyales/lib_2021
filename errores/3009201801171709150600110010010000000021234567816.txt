@@ -1,0 +1,125 @@
+Servicio: Autorizacion Comprobante
+Clave Acceso: 3009201801171709150600110010010000000021234567816
+Respuesta: Array
+(
+    [claveAccesoConsultada] => 3009201801171709150600110010010000000021234567816
+    [numeroComprobantes] => 1
+    [autorizaciones] => Array
+        (
+            [autorizacion] => Array
+                (
+                    [estado] => NO AUTORIZADO
+                    [fechaAutorizacion] => 2018-10-03T21:05:25-05:00
+                    [ambiente] => PRUEBAS
+                    [comprobante] => <?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.0.0"><infoTributaria><ambiente>1</ambiente><tipoEmision>1</tipoEmision><razonSocial>PISCULLA COQUE ANGEL MARTIN</razonSocial><nombreComercial>MP ASESORIA INTEGRAL</nombreComercial><ruc>1717091506001</ruc><claveAcceso>3009201801171709150600110010010000000021234567816</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>001</ptoEmi><secuencial>000000002</secuencial><dirMatriz>CAMILO PONCE ENRIQUEZ Y PASAJE ALMEIDA CONJUNTO ARAGON 1 </dirMatriz></infoTributaria><infoFactura><fechaEmision>30/09/2018</fechaEmision><dirEstablecimiento>CAMILO PONCE ENRIQUEZ Y PASAJE ALMEIDA CONJUNTO ARAGON 1 </dirEstablecimiento><obligadoContabilidad>NO</obligadoContabilidad><tipoIdentificacionComprador>05</tipoIdentificacionComprador><razonSocialComprador>ABCD PRUEBAS</razonSocialComprador><identificacionComprador>1714612791</identificacionComprador><direccionComprador>PRUEBAS </direccionComprador><totalSinImpuestos>999.00</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><baseImponible>999.00</baseImponible><tarifa>12</tarifa><valor>119.88</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>1118.88</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>1118.88</total><plazo>2</plazo><unidadTiempo>Meses</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>prueba1</codigoPrincipal><codigoAuxiliar>p1</codigoAuxiliar><descripcion>PRUEBA 1</descripcion><cantidad>1</cantidad><precioUnitario>999</precioUnitario><descuento>0</descuento><precioTotalSinImpuesto>999.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="aaaaa" valor="a"/><detAdicional nombre="bbbbb" valor="b"/><detAdicional nombre="cccc" valor="c"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12</tarifa><baseImponible>999.00</baseImponible><valor>119.88</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Direccion">PRUEBAS</campoAdicional><campoAdicional nombre="Telefono">022070995</campoAdicional><campoAdicional nombre="Email">pruebas@hotmail.com</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature504820">
+<ds:SignedInfo Id="Signature-SignedInfo938040">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID675103" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature504820-SignedProperties415992">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>Y+py82hsiAr+qV6/JNN4T+1vPoc=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate778907">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>yAdQfVTCv26ofhJB/lCFvlbyulM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-80878" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>cvJeUWTYTt61cx+sRIoU8E7TeiM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue950429">
+pudo4ZodUwe/ihmOj3r7z9f6NO2sisaDUrMimo9FyfR+sEZQNG9/SYMMZf9+AtvY+990jQrz1ogf
+I1uFG/vew0JFu/jFRypPZuVQWs4CvD6zzVbgVBRyV57qiXrdJA/SniTrxc/qX96DYbFTapzaHWDy
+arSovUB8nsDVrnxhjKvDukk+WkVmtMJ/A6REJBir1ACJX0heyMxQ1FF/Cc6TgL2mDX1K5N9MDb1C
+kh6wsi5eDAssDBAKb4XQVv9zwmNONScIYQBj4xGDKoggWRRux9VqnvBUveFy+XImxh+4HntN2k9r
+J4PRmvAM7YaGtiI6NxK/eUJkZBRa84ZcYqhyBA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate778907">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJqjCCB5KgAwIBAgIEW1zvBzANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE4MDkwNjIwNDAxMFoXDTIwMDkwNjIxMTAx
+MFowgbMxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE3MBEGA1UEBRMKMDAwMDMwODg2MzAiBgNVBAMTG0FOR0VMIE1BUlRJTiBQ
+SVNDVUxMQSBDT1FVRTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALbxuy9MGMhAAFLK
+kG/bXnn0Us8i4m6ssmyhiUe6eTwtDHi0qluqsSHlKrt/0vwq+6VjccS3bEs11FdD8x5w9CwsAKk9
+HSEv5zh8tkS+s94AFSS/WDRavtdWRldmMT3qEeoZx7MKGaYoyYZi15ewgdko8BBocUg3abQbiOqU
+W+ecN4X9hB/dWjbOW0GHWemGUEJ9Y9HLLBTafJ+kLzuGqFbR3FaXbzue84pT09O+0qX1bm3TKFiR
+jSYjod7YE9vbzMEqXYfrL5L6Xrvjaj6Gi3dsS4WYmOBUBtCOEAVCGLdUvfQT0TBEMR3lLZTn9jIQ
+b1ZiFlQ8o8lnoAGXiAjHcA0CAwEAAaOCBNQwggTQMAsGA1UdDwQEAwIHgDBmBgNVHSAEXzBdMFsG
+CysGAQQBgqg7AgEBMEwwSgYIKwYBBQUHAgEWPmh0dHA6Ly93d3cuZWNpLmJjZS5lYy9wb2xpdGlj
+YS1jZXJ0aWZpY2Fkby9wZXJzb25hLW5hdHVyYWwucGRmMIGRBggrBgEFBQcBAQSBhDCBgTA+Bggr
+BgEFBQcwAYYyaHR0cDovL29jc3AuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29j
+c3AwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMS5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dlYi9z
+dGF0dXMvb2NzcDAaBgorBgEEAYKoOwMBBAwTCjE3MTcwOTE1MDYwHAYKKwYBBAGCqDsDAgQOEwxB
+TkdFTCBNQVJUSU4wGAYKKwYBBAGCqDsDAwQKEwhQSVNDVUxMQTAVBgorBgEEAYKoOwMEBAcTBUNP
+UVVFMDYGCisGAQQBgqg7AwcEKBMmUEFTQUpFIEFMTUVJREEgWSBDQU1JTE8gUE9OQ0UgRU5SSVFV
+RVowGQYKKwYBBAGCqDsDCAQLEwkwMjIwNzA5OTQwFQYKKwYBBAGCqDsDCQQHEwVRdWl0bzAXBgor
+BgEEAYKoOwMMBAkTB0VDVUFET1IwHQYKKwYBBAGCqDsDCwQPEw0xNzE3MDkxNTA2MDAxMCAGCisG
+AQQBgqg7AzMEEhMQU09GVFdBUkUtQVJDSElWTzAgBgNVHREEGTAXgRVtcGlzY3VsbGFAaG90bWFp
+bC5jb20wggHfBgNVHR8EggHWMIIB0jCCAc6gggHKoIIBxoaB1WxkYXA6Ly9iY2VxbGRhcHN1YnAx
+LmJjZS5lYy9jbj1DUkw2MjEsY249QUMlMjBCQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VBRE9S
+LGw9UVVJVE8sb3U9RU5USURBRCUyMERFJTIwQ0VSVElGSUNBQ0lPTiUyMERFJTIwSU5GT1JNQUNJ
+T04tRUNJQkNFLG89QkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixjPUVDP2NlcnRpZmlj
+YXRlUmV2b2NhdGlvbkxpc3Q/YmFzZYY0aHR0cDovL3d3dy5lY2kuYmNlLmVjL0NSTC9lY2lfYmNl
+X2VjX2NybGZpbGVjb21iLmNybKSBtTCBsjELMAkGA1UEBhMCRUMxIjAgBgNVBAoTGUJBTkNPIENF
+TlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJ
+TkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxBQyBCQU5DTyBDRU5U
+UkFMIERFTCBFQ1VBRE9SMQ8wDQYDVQQDEwZDUkw2MjEwKwYDVR0QBCQwIoAPMjAxODA5MDYyMDQw
+MTBagQ8yMDIwMDkwNjIxMTAxMFowHwYDVR0jBBgwFoAUGPnw++YyHJlmOSrKi7JpfUknv84wHQYD
+VR0OBBYEFKenBrDfR/8EWKfbebLJyOR5R8lzMAkGA1UdEwQCMAAwGQYJKoZIhvZ9B0EABAwwChsE
+VjguMQMCBLAwDQYJKoZIhvcNAQELBQADggIBADHQO/FBXHw3lp8FLr4Ii2bCunEPRUJsH2dswGfw
+TslQA/UxKgfodFDE5RTk/CfK5Ethq6WpKbsjh7kY870VAkrHeP1cITwJuzoAZWedqMs+Kr1AGaHG
+8cddFaXrzQY0EvZad/hf+yLAcTS6IVOYysfswB91GV0c4Npeuo5ZlTp2V//zsENcfgQ2oFeE4h0r
+dtLAuuR4i22zManwfyJPKPyQwbbM2zTCdLhJ1Ojh+VEGxclY/FwVYigNS215DyS+InjzqTg7m94N
+QbhRKRNicjkgRbepJRkqEINyI27FIi4/+2w6Chsbhxgpmjmb3481+q8oi87YU+Cr2+TOvvZI9esy
+CcUA8iM+1gg2hAlhwasXv0BWGqcJf2xPGI+Ctz7UGke6BbfIXTWdjrhvqXy1O2OKXKgPwcyqM8eK
+Bd1q1nMy9Iue27im4ttrQ2fjwu2Bi1whdOPuKcG3uHU6WALn9OE2S8CgpkqLDnjQ99xjfPGo7R4P
+tcLtni0YBp9eFD+jZIpLqTK2U/xXu/h+al7XLOS63eEvk0LjeKXqYub9O1iMsmDwrI1o6+3W4P+h
+pDx+CaP5NkHryaBvTRN2bnAyOsStwqTiqIWoLcPBCc6VPaafY1miJ+k5B2hX37uHXLmFDgH4eYgK
+8ArppSIO4/XTdkM4/dkyLg7Vq6N3FrXbS3QX
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tvG7L0wYyEAAUsqQb9teefRSzyLibqyybKGJR7p5PC0MeLSqW6qxIeUqu3/S/Cr7pWNxxLdsSzXU
+V0PzHnD0LCwAqT0dIS/nOHy2RL6z3gAVJL9YNFq+11ZGV2YxPeoR6hnHswoZpijJhmLXl7CB2Sjw
+EGhxSDdptBuI6pRb55w3hf2EH91aNs5bQYdZ6YZQQn1j0cssFNp8n6QvO4aoVtHcVpdvO57zilPT
+077SpfVubdMoWJGNJiOh3tgT29vMwSpdh+svkvpeu+NqPoaLd2xLhZiY4FQG0I4QBUIYt1S99BPR
+MEQxHeUtlOf2MhBvVmIWVDyjyWegAZeICMdwDQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature504820-Object947840"><etsi:QualifyingProperties Target="#Signature504820"><etsi:SignedProperties Id="Signature504820-SignedProperties415992"><etsi:SignedSignatureProperties><etsi:SigningTime>2018-10-03T21:05:17-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>AMeClwBjHLnNYcqMG68rhnsUOCs=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1532817159</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-80878"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>
+
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 39
+                                    [mensaje] => FIRMA INVALIDA
+                                    [informacionAdicional] => La firma es invalida [Firma inválida (firma y/o certificados alterados)]
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
