@@ -64,7 +64,7 @@ try {
     $tipocomprobante = '01';
 
     // 1 pruebas, 2 produccion
-    $tipoambiente = '1';
+    $tipoambiente = '2';
 
     // sacar de la base de datos
     $serie = '001001';

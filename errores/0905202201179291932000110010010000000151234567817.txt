@@ -1,0 +1,7 @@
+Servicio: Validar Comprobante
+Clave Acceso: 0905202201179291932000110010010000000151234567817
+Respuesta: HTTP Error: cURL ERROR: 28: Operation timed out after 30005 milliseconds with 0 bytes received<br>url: https://celcer.sri.gob.ec:443/comprobantes-electronicos-ws/RecepcionComprobantesOffline?wsdl<br>content_type: <br>http_code: 0<br>header_size: 0<br>request_size: 14061<br>filetime: -1<br>ssl_verify_result: 0<br>redirect_count: 0<br>total_time: 30.006032<br>namelookup_time: 0.098075<br>connect_time: 0.1119<br>pretransfer_time: 0.274345<br>size_upload: 13830<br>size_download: 0<br>speed_download: 0<br>speed_upload: 460<br>download_content_length: -1<br>upload_content_length: 13830<br>starttransfer_time: 0<br>redirect_time: 0<br>redirect_url: <br>primary_ip: 190.152.216.11<br>certinfo: Array<br>primary_port: 443<br>local_ip: 192.168.100.20<br>local_port: 65258<br>http_version: 0<br>protocol: 2<br>ssl_verifyresult: 0<br>scheme: HTTPS<br>appconnect_time_us: 272311<br>connect_time_us: 111900<br>namelookup_time_us: 98075<br>pretransfer_time_us: 274345<br>redirect_time_us: 0<br>starttransfer_time_us: 0<br>total_time_us: 30006032<br>
+
+__________________________________________________________________
+
+

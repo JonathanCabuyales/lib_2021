@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+	<infoTributaria>
+		<ambiente>1</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</razonSocial>
+		<nombreComercial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</nombreComercial>
+		<ruc>1792919320001</ruc>
+		<claveAcceso>1005202201179291932000110010010000010591234567818</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000001059</secuencial>
+		<dirMatriz>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>10/05/2022</fechaEmision>
+		<dirEstablecimiento>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirEstablecimiento>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+		<razonSocialComprador>MARIA HERMELINDA GUALOTU?A LLUMIQUINGA</razonSocialComprador>
+		<identificacionComprador>1702956127</identificacionComprador>
+		<direccionComprador>QUITO</direccionComprador>
+		<totalSinImpuestos>4.53</totalSinImpuestos>
+		<totalDescuento>0.00</totalDescuento>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>0</codigoPorcentaje>
+				<baseImponible>4.53</baseImponible>
+				<valor>0</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<propina>0.00</propina>
+		<importeTotal>4.53</importeTotal>
+		<moneda>DOLAR</moneda>
+		<pagos>
+			<pago>
+				<formaPago>01</formaPago>
+				<total>4.53</total>
+				<plazo>30</plazo>
+				<unidadTiempo>dias</unidadTiempo>
+			</pago>
+		</pagos>
+	</infoFactura>
+	<detalles>
+		<detalle>
+			<codigoPrincipal>SERV000001059</codigoPrincipal>
+			<descripcion>SERV000001059</descripcion>
+			<cantidad>1</cantidad>
+			<precioUnitario>4.53</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>4.53</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>4.53</baseImponible>
+					<valor>0.00</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+	<infoAdicional>
+		<campoAdicional nombre="email">momo.1386@hotmail.com</campoAdicional>
+		<campoAdicional nombre="consumo">63</campoAdicional>
+		<campoAdicional nombre="telefono">993019757</campoAdicional>
+		<campoAdicional nombre="lecturaActual">153</campoAdicional>
+		<campoAdicional nombre="lecturaAnterior">90</campoAdicional>
+	</infoAdicional>
+</factura>

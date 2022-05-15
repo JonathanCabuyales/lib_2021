@@ -115,6 +115,8 @@ if ($client->fault) {
                     // $facturaPDF = new generarPDF();
                     // $facturaPDF->notaDebitoPDF($dataComprobante, $claveAcceso);
                 }
+
+                
             }
         }
     }
@@ -123,11 +125,8 @@ fwrite($file, "\n_______________________________________________________________
 fclose($file);
 
 
-echo json_encode(
-    array(
-        'resultado' => $result
-    )
-    );
+
+
 
 
 

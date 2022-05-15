@@ -13,6 +13,7 @@ $service = $_POST['service'];
 //EndPoint
 //Endpoint de pruebas
 $servicio = "https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOffline?wsdl"; //url del servicio
+// $servicio = "https://cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOffline?wsdl"; //url del servicio
 $parametros = array(); //parametros de la llamada
 $parametros['xml'] = $mensaje;
 
@@ -74,6 +75,8 @@ if ($client->fault) {
 }
 fwrite($file, "\n__________________________________________________________________\n". PHP_EOL);
 fclose($file);
+
+
 
 
 
