@@ -1,0 +1,20 @@
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1605202201179291932000110010010000014731234567816
+Respuesta: Array
+(
+    [claveAccesoConsultada] => 1605202201179291932000110010010000014731234567816
+    [autorizaciones] => Array
+        (
+            [autorizacion] => Array
+                (
+                    [estado] => EN PROCESO
+                    [mensajes] => 
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+

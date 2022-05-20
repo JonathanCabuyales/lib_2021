@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+	<infoTributaria>
+		<ambiente>1</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</razonSocial>
+		<nombreComercial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</nombreComercial>
+		<ruc>1792919320001</ruc>
+		<claveAcceso>1605202201179291932000110010010000014501234567810</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000001450</secuencial>
+		<dirMatriz>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>16/05/2022</fechaEmision>
+		<dirEstablecimiento>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirEstablecimiento>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+		<razonSocialComprador>MARIA ERLINDA  GUALOTUÃA  LOACHAMIN</razonSocialComprador>
+		<identificacionComprador>1711518231</identificacionComprador>
+		<direccionComprador>QUITO</direccionComprador>
+		<totalSinImpuestos>7.83</totalSinImpuestos>
+		<totalDescuento>0.00</totalDescuento>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>0</codigoPorcentaje>
+				<baseImponible>7.83</baseImponible>
+				<valor>0</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<propina>0.00</propina>
+		<importeTotal>7.83</importeTotal>
+		<moneda>DOLAR</moneda>
+		<pagos>
+			<pago>
+				<formaPago>01</formaPago>
+				<total>7.83</total>
+				<plazo>30</plazo>
+				<unidadTiempo>dias</unidadTiempo>
+			</pago>
+		</pagos>
+	</infoFactura>
+	<detalles>
+		<detalle>
+			<codigoPrincipal>SERV000001450</codigoPrincipal>
+			<descripcion>SERV000001450</descripcion>
+			<cantidad>1</cantidad>
+			<precioUnitario>7.83</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>7.83</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>7.83</baseImponible>
+					<valor>0.00</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+	<infoAdicional>
+		<campoAdicional nombre="email">estebanaraujo9noa@gmail.com</campoAdicional>
+		<campoAdicional nombre="consumo">63</campoAdicional>
+		<campoAdicional nombre="telefono">0983585083</campoAdicional>
+		<campoAdicional nombre="lecturaActual">153</campoAdicional>
+		<campoAdicional nombre="lecturaAnterior">90</campoAdicional>
+	</infoAdicional>
+</factura>

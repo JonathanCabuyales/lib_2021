@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+	<infoTributaria>
+		<ambiente>1</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</razonSocial>
+		<nombreComercial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</nombreComercial>
+		<ruc>1792919320001</ruc>
+		<claveAcceso>1605202201179291932000110010010000014711234567815</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000001471</secuencial>
+		<dirMatriz>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>16/05/2022</fechaEmision>
+		<dirEstablecimiento>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirEstablecimiento>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+		<razonSocialComprador>CONSUMIDOR FINAL</razonSocialComprador>
+		<identificacionComprador>9999999999</identificacionComprador>
+		<direccionComprador>QUITO</direccionComprador>
+		<totalSinImpuestos>11.58</totalSinImpuestos>
+		<totalDescuento>0.00</totalDescuento>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>0</codigoPorcentaje>
+				<baseImponible>11.58</baseImponible>
+				<valor>0</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<propina>0.00</propina>
+		<importeTotal>11.58</importeTotal>
+		<moneda>DOLAR</moneda>
+		<pagos>
+			<pago>
+				<formaPago>01</formaPago>
+				<total>11.58</total>
+				<plazo>30</plazo>
+				<unidadTiempo>dias</unidadTiempo>
+			</pago>
+		</pagos>
+	</infoFactura>
+	<detalles>
+		<detalle>
+			<codigoPrincipal>SERV000001471</codigoPrincipal>
+			<descripcion>SERV000001471</descripcion>
+			<cantidad>1</cantidad>
+			<precioUnitario>11.58</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>11.58</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>11.58</baseImponible>
+					<valor>0.00</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+	<infoAdicional>
+		<campoAdicional nombre="email">mareliloachaming@gmail.com</campoAdicional>
+		<campoAdicional nombre="consumo">63</campoAdicional>
+		<campoAdicional nombre="telefono">992553364</campoAdicional>
+		<campoAdicional nombre="lecturaActual">153</campoAdicional>
+		<campoAdicional nombre="lecturaAnterior">90</campoAdicional>
+	</infoAdicional>
+</factura>

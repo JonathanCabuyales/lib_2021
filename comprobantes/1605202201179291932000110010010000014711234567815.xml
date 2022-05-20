@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.0.0"><infoTributaria><ambiente>1</ambiente><tipoEmision>1</tipoEmision><razonSocial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</razonSocial><nombreComercial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</nombreComercial><ruc>1792919320001</ruc><claveAcceso>1605202201179291932000110010010000015501234567814</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>001</ptoEmi><secuencial>000001550</secuencial><dirMatriz>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirMatriz></infoTributaria><infoFactura><fechaEmision>16/05/2022</fechaEmision><dirEstablecimiento>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>05</tipoIdentificacionComprador><razonSocialComprador>CARLOS PAUCAR LOACHAMIN</razonSocialComprador><identificacionComprador>1704323003</identificacionComprador><direccionComprador>QUITO</direccionComprador><totalSinImpuestos>12.96</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><baseImponible>12.96</baseImponible><valor>0</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>12.96</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>01</formaPago><total>12.96</total><plazo>30</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>SERV000001550</codigoPrincipal><descripcion>SERV000001550</descripcion><cantidad>1</cantidad><precioUnitario>12.96</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>12.96</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0.00</tarifa><baseImponible>12.96</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="email">cpaucarl@hotmail.com</campoAdicional><campoAdicional nombre="consumo">63</campoAdicional><campoAdicional nombre="telefono">994374207</campoAdicional><campoAdicional nombre="lecturaActual">153</campoAdicional><campoAdicional nombre="lecturaAnterior">90</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature622457">
-<ds:SignedInfo Id="Signature-SignedInfo844498">
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:autorizacionComprobanteResponse xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><RespuestaAutorizacionComprobante><claveAccesoConsultada>1605202201179291932000110010010000014711234567815</claveAccesoConsultada><numeroComprobantes>1</numeroComprobantes><autorizaciones><autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>1605202201179291932000110010010000014711234567815</numeroAutorizacion><fechaAutorizacion>2022-05-16T15:33:21-05:00</fechaAutorizacion><ambiente>PRUEBAS</ambiente><comprobante><?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.0.0"><infoTributaria><ambiente>1</ambiente><tipoEmision>1</tipoEmision><razonSocial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</razonSocial><nombreComercial>JUNTA ADMINISTRADORA DE AGUA POTABLE Y SANEAMIENTO DE SAN JUAN DE AMAGUAÑA</nombreComercial><ruc>1792919320001</ruc><claveAcceso>1605202201179291932000110010010000014711234567815</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>001</ptoEmi><secuencial>000001471</secuencial><dirMatriz>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirMatriz></infoTributaria><infoFactura><fechaEmision>16/05/2022</fechaEmision><dirEstablecimiento>RICARDO ALVAREZ S3-51 Y NELA MARTINEZ (SAN JUAN)</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>05</tipoIdentificacionComprador><razonSocialComprador>CONSUMIDOR FINAL</razonSocialComprador><identificacionComprador>9999999999</identificacionComprador><direccionComprador>QUITO</direccionComprador><totalSinImpuestos>11.58</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><baseImponible>11.58</baseImponible><valor>0</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>11.58</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>01</formaPago><total>11.58</total><plazo>30</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>SERV000001471</codigoPrincipal><descripcion>SERV000001471</descripcion><cantidad>1</cantidad><precioUnitario>11.58</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>11.58</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0.00</tarifa><baseImponible>11.58</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="email">mareliloachaming@gmail.com</campoAdicional><campoAdicional nombre="consumo">63</campoAdicional><campoAdicional nombre="telefono">992553364</campoAdicional><campoAdicional nombre="lecturaActual">153</campoAdicional><campoAdicional nombre="lecturaAnterior">90</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature981544">
+<ds:SignedInfo Id="Signature-SignedInfo495743">
 <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
 <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
-<ds:Reference Id="SignedPropertiesID952284" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature622457-SignedProperties991715">
+<ds:Reference Id="SignedPropertiesID211185" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature981544-SignedProperties147238">
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
-<ds:DigestValue>WJmRvWky+df9Q7YiM8msb6rmvnI=</ds:DigestValue>
+<ds:DigestValue>4iTcENswZIBfQYkW/6knRUWmQ+w=</ds:DigestValue>
 </ds:Reference>
-<ds:Reference URI="#Certificate488757">
+<ds:Reference URI="#Certificate503174">
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
-<ds:DigestValue>a/jkODYL9M2SvUIS/eiEerbKutQ=</ds:DigestValue>
+<ds:DigestValue>MvSaXggM2fgcBliPB1EF4KObV2A=</ds:DigestValue>
 </ds:Reference>
-<ds:Reference Id="Reference-ID-955685" URI="#comprobante">
+<ds:Reference Id="Reference-ID-466601" URI="#comprobante">
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
-<ds:DigestValue>yvsTDLntPA8U3ueH4Oet/kISXQ8=</ds:DigestValue>
+<ds:DigestValue>KCHcI77LEZ95QASK3r+Qbwq2/Ro=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
-<ds:SignatureValue Id="SignatureValue86484">
-dL/4oTTLll44OuEXiNITmXQmWjUqIPmXUKQsM7HQmKivZSofTs15XtSjt+PnGUEhzj9SqkWebpzW
-FzwhI7pLBVcifK3EZGiy5oFT7gQDRcVmywJDLtpQ8JPyN+WKPOhiv1aOHXljP0gYuGVEFIUv2rIR
-oqoeEIQqtjWh5riQMlHTO6HIY35k8tJhFPZZJeVQGCTzbgHm4jhRVoJx0CeG34Umsr8XYGk1PKPX
-hKABlPpyKeyqtMNQ8J6pytzzi4ar6o5Xn1JEtwcoEWVI4AncIx140d3wE+7AmhRMF4EHWIuLTjx9
-TE2Y6Dqj1ek4kD9xwfAwdFBMPkvxzTTSxgbmAQ==
+<ds:SignatureValue Id="SignatureValue584829">
+LfYA6LtEgXRYTU2clXTG1xy3VdSqtodiDeuHdgl79prnPdLtOAy/FQcCD3+kA8Yfwhg4RwCuGHYX
+Lq8lp9rUkFX4KmgzAsGGbTdp7tWZzIAcZOTM0njuyxh7XgcUeQRIN7NKKzoMDSXHe2XunIALexa3
+rsxWMOvAJrChIsSExPg6eluMHziFrYi8c+sWDyz+Z8usbGK3rABdRP4O9pTJ2Pt3Nel+Y5/r+Ja3
+N9z09oPntFL9jQQF2GLtYhvQuwd1nSx4riZGSQzmqIoOck9XHkI6J8Cfy0C2JInZgOQpLhtTgLm8
+mdL69qOTBBZiDJnFXQ24tT1hFU05h8bWPbFmUQ==
 </ds:SignatureValue>
-<ds:KeyInfo Id="Certificate488757">
+<ds:KeyInfo Id="Certificate503174">
 <ds:X509Data>
 <ds:X509Certificate>
 MIIMPTCCCiWgAwIBAgIETrt8sTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
@@ -99,4 +99,5 @@ aaDZuiPaH7eDdEVDQg7WJNsU3eOg7CtcZwZYpQ==
 </ds:RSAKeyValue>
 </ds:KeyValue>
 </ds:KeyInfo>
-<ds:Object Id="Signature622457-Object364479"><etsi:QualifyingProperties Target="#Signature622457"><etsi:SignedProperties Id="Signature622457-SignedProperties991715"><etsi:SignedSignatureProperties><etsi:SigningTime>2022-05-16T15:55:59-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>/x0rnpOMNcdoJeAQESU8TO5NpkE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1320910001</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-955685"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>
+<ds:Object Id="Signature981544-Object706055"><etsi:QualifyingProperties Target="#Signature981544"><etsi:SignedProperties Id="Signature981544-SignedProperties147238"><etsi:SignedSignatureProperties><etsi:SigningTime>2022-05-16T15:33:16-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>/x0rnpOMNcdoJeAQESU8TO5NpkE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1320910001</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-466601"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>&#xD;
+</comprobante><mensajes/></autorizacion></autorizaciones></RespuestaAutorizacionComprobante></ns2:autorizacionComprobanteResponse></soap:Body></soap:Envelope>
